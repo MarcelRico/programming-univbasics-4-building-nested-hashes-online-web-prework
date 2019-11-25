@@ -12,8 +12,7 @@ end
 
 def monopoly_with_third_tier
   new_has = monopoly_with_second_tier
-  new_has[:rent_in_dollars] = {}
-  new_has
+  new_har[:railroads][:rent_in_dollars] = {}
 end
 
 def monopoly_with_fourth_tier
