@@ -21,6 +21,6 @@ def monopoly_with_fourth_tier
   new_has = monopoly_with_third_tier
   new_has[:railroads][:names][:reading_railroad]["mortgage_value"] = "$100"
   new_has[:railroads][:names][:pennsylvania_railroad]["mortgage_value"] = "$200"
-  new_has[:railroads][:names][:reading_railroad]["mortgage_value"] = "$400"  
+  new_has[:railroads][:names][:b_and_o_railroad]["mortgage_value"] = "$400"  
   new_has
 end
