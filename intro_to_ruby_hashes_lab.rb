@@ -12,6 +12,7 @@ end
 
 def monopoly_with_third_tier
   new_has = monopoly_with_second_tier[:railroads]
+  puts new_has
   new_has[:rent_in_dollars] = {}
   new_has
 end
