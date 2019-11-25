@@ -7,6 +7,7 @@ end
 def monopoly_with_second_tier
   new_has = base_hash
   new_has[:railroads] = {:pieces=>{}}
+  new_has
 end
 
 def monopoly_with_third_tier
